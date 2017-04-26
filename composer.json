@@ -14,7 +14,7 @@
 	],
 	"require" : {
 		"symfony/symfony": ">=3.0",
-		"davidwnek/survey-monkey-api-php-client": "dev-master"
+		"davidwnek/survey_monkey_api_php_client": "dev-master"
 	},
 	"autoload" : {
 		"psr-4" : {
