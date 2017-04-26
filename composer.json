@@ -13,7 +13,7 @@
 		"Apache License 2.0"
 	],
 	"require" : {
-		"symfony/admin-bundle": ">=3.0",
+		"symfony/symfony": ">=3.0",
 		"davidwnek/survey-monkey-api-php-client": "dev-master"
 	},
 	"autoload" : {
