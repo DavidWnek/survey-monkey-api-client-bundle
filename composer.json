@@ -1,5 +1,5 @@
 {
-	"name" : "davidwnek/survey-monkey-api-client-bundle",
+	"name" : "davidwnek/survey_monkey_api_client_bundle",
 	"description" : "Symfony integration bundle of the Survey Monkey API Client",
 	"type" : "symfony-bundle",
 	"authors" : [{
