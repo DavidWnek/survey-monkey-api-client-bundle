@@ -1,0 +1,31 @@
+services:
+    survey_monkey_api_client.client:
+        class: davidwnek\SurveyMonkey\Client
+        arguments:
+            - "%davidwnek.parameters.client_id%"
+            - "%davidwnek.parameters.client_secret%"
+            - "%davidwnek.parameters.scope%"
+            - "%davidwnek.parameters.redirect_url%"
+            - "@survey_monkey_api_client.token_storage"
+
+    survey_monkey_api_client.token_storage:
+        class: davidwnek\SurveyMonkey\TokenStorage\SymfonySessionStorage
+        calls:
+            - [setSession, ["@session"]]
+
+    survey_monkey_api_client.authentication:
+        class: davidwnek\SurveyMonkey\Authentication
+        arguments: ["@survey_monkey_api_client.client"]
+
+    survey_monkey_api_client.survey_service:
+        class: davidwnek\SurveyMonkey\Service\SurveyService
+        arguments: ["@survey_monkey_api_client.client"]
+
+    survey_monkey_api_client.survey_response_service:
+        class: davidwnek\SurveyMonkey\Service\SurveyResponseService
+        arguments: ["@survey_monkey_api_client.client"]
+
+    survey_monkey_api_client.webhook_service:
+        class: davidwnek\SurveyMonkey\Service\WebHookService
+        arguments: ["@survey_monkey_api_client.client"]
+

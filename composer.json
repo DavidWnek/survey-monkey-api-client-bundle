@@ -1,0 +1,29 @@
+{
+	"name" : "davidwnek/survey-monkey-api-client-bundle",
+	"description" : "Symfony integration bundle of the Survey Monkey API Client",
+	"type" : "symfony-bundle",
+	"authors" : [{
+		"name" : "David Wnek",
+		"email" : "davidwnek@gmail.com"
+	}],
+	"keywords" : [
+		"symfony", "survey", "monkey", "api", "client"
+	],
+	"license" : [
+		"Apache License 2.0"
+	],
+	"require" : {
+		"symfony/admin-bundle": ">=3.0",
+		"davidwnek/survey-monkey-api-php-client": "dev-master"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"davidwnek\\SurveyMonkeyApiClientBundle\\" : ""
+		}
+	},
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "1.0.x-dev"
+		}
+	}
+}
