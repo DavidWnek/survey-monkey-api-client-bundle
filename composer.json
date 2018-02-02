@@ -1,7 +1,7 @@
 {
 	"name" : "davidwnek/survey_monkey_api_client_bundle",
 	"description" : "Symfony integration bundle of the Survey Monkey API Client",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"type" : "symfony-bundle",
 	"authors" : [{
 		"name" : "David Wnek",
