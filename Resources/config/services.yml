@@ -29,3 +29,11 @@ services:
         class: davidwnek\SurveyMonkey\Service\WebHookService
         arguments: ["@survey_monkey_api_client.client"]
 
+    survey_monkey_api_client.pages_service:
+        class: davidwnek\SurveyMonkey\Service\PagesService
+        arguments: ["@survey_monkey_api_client.client"]
+
+    survey_monkey_api_client.pages_questions_service:
+        class: davidwnek\SurveyMonkey\Service\PagesQuestionsService
+        arguments: ["@survey_monkey_api_client.client"]
+
