@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7716552e2bdfb2c29b89587c94e12b9a",
+    "content-hash": "a77a331d1e2cc9e7c5653f72b096be8f",
     "packages": [
         {
             "name": "davidwnek/survey_monkey_api_php_client",
-            "version": "dev-master",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DavidWnek/survey_monkey_api_php_client.git",
-                "reference": "6e1df33a1dde4fe5d675cbdb03f9dae4e7c369a9"
+                "reference": "0f6fc72a86bb03ab52dd2a3ec27291ae1cbcc44b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DavidWnek/survey_monkey_api_php_client/zipball/6e1df33a1dde4fe5d675cbdb03f9dae4e7c369a9",
-                "reference": "6e1df33a1dde4fe5d675cbdb03f9dae4e7c369a9",
+                "url": "https://api.github.com/repos/DavidWnek/survey_monkey_api_php_client/zipball/0f6fc72a86bb03ab52dd2a3ec27291ae1cbcc44b",
+                "reference": "0f6fc72a86bb03ab52dd2a3ec27291ae1cbcc44b",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache License 2.0"
+                "MIT"
             ],
             "authors": [
                 {
@@ -45,7 +45,7 @@
                 }
             ],
             "description": "A PHP Client library for accessing Survey Monkey API's https://developer.surveymonkey.com/api/v3/",
-            "time": "2017-04-26 14:21:44"
+            "time": "2018-02-02T15:30:38+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -282,9 +282,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "davidwnek/survey_monkey_api_php_client": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
